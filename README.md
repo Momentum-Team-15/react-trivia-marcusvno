@@ -23,21 +23,15 @@ Goals in the order you should tackle them:
 1. Get a list of categories from the Trivia API showing up on the page.
 2. Make your trivia categories selectable. When a user clicks on a category to select it, you should make a request to get at least 10 questions for that category(note: the API will let you specify how many questions you want to get back and it will let you specify the type (e.g., multiple choice)).
 3. If you can get all the questions for the selected category, the next step is to show the questions. Ideally you want to show one question at at a time with answer choices for that question.
-        If this is too hard, just show the first question to start with.
-        Next, show the answer choices for that question (don’t worry about the order at first; you can change that later).
-        When you can show one question with its answer choices, then make it possible for the user to see the next question in the list of questions by clicking a button
+    a. If this is too hard, just show the first question to start with.
+    b. Next, show the answer choices for that question (don’t worry about the order at first; you can change that later).
+    c. When you can show one question with its answer choices, then make it possible for the user to see the next question in the list of questions by clicking a button
     Make it possible for the user to select their answer choice. You will need to know what answer they selected, and you will need to know the correct answer. They got the answer right if the answer they selected is the same as the correct answer – so you’ll need to compare those two values somehow.
-    Tell the user if they got the question right.
-        OR keep track of questions answered correctly and tally them at the end (something like, “You got 6 out of 10 questions right!”).
-    Have a way for the quiz to end. Optionally, go back to the list of categories to start another quiz.
-
-
-
-
-
-
-
-
+    d. Tell the user if they got the question right.
+    
+    OR keep track of questions answered correctly and tally them at the end (something like, “You got 6 out of 10 questions right!”).
+    
+Have a way for the quiz to end. Optionally, go back to the list of categories to start another quiz.
 
 
 ## Requirements
