@@ -16,12 +16,16 @@ function App() {
 
   return (
     <div className="App">
-        <header className="title"><h1>Trivia</h1></header>
-        <ul>
-          {categories.map(result=> (
-            <li key={result.id}>{result.name}</li>
-          ))}
-        </ul>
+       <h1>CATEGORIES</h1>
+        <div className = 'grid'>
+          <div className = 'wrapper'>
+            <div className="category-cards">
+                {categories.map(result=> (
+                  <button key={result.id}>{result.name}</button>
+                ))}
+            </div>
+          </div>
+        </div>
     </div>
   );
 }

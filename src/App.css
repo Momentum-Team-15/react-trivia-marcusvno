@@ -1,14 +1,46 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  display: flex-nowrap;
-  align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  text-align:center;
+  color:#1B2626;
+  font-weight:900;
+  font-size:300%;
+  
+}
+
+.App{
+  padding:2%;
+  
+}
+
+.wrapper{
+  margin: 0 3%;
+  display: flex;
+}
+
+button{
+  background: #627173;
+  color:#D9D9D9;
+  border: 0;
+  box-shadow:0px;
+  border-radius: 10px;
+  padding: 2%;
+  font-size: 150%;
+  margin: .4%;
+  
+}
+
+button:hover{
+  background-color:#4A5859;
+  font-weight:bolder;
+}
+
+.category-cards{
   justify-content: center;
-  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.title {
-    background-color: #282c34;
-
-}
-
